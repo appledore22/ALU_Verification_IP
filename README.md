@@ -39,6 +39,13 @@ The seq item will randomize operands and opcode and send this packet to the driv
   6.  run 2000ns
   
   ### Results
+  ![Output for verbosity MEDIUM](result_UVM_MEDIUM.png)
   
+  ### References
+    1.  DUT - https://esrd2014.blogspot.com/p/8-bit-arithmetic-and-logic-unit.html
+    2.  https://www.edaplayground.com/x/ezS
+    3.  https://www.chipverify.com/uvm/using-decl-macro-in-tlm
+    4.  https://www.chipverify.com/uvm/macros-and-defines
+    5.  https://www.verificationguide.com/p/uvm-tutorial.html
   
   
