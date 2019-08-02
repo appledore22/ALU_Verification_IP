@@ -10,4 +10,4 @@ Verification IP for ALU written using SystemVerilog (UVM)
 ### Project Information
 Understanding the flow of data in UVM is pretty confusing. For this project I have used, the below diagram as a reference.
 
-![TOP VIEW](https://drive.google.com/open?id=1tvsNBnniYofdWUgPgtDjrldYfvdGz9ef)
+![Testbench Arhitecture](top_image.png)
