@@ -24,3 +24,14 @@ The seq item will randomize operands and opcode and send this packet to the driv
       See alu_test.sv The base class contain alu_test contain methods for UVM_Reporting. This base class is extended into alu_test_random
       and alu_test_add. The alu_test_random will randomize the opcodes while the alu_test_add will set the opcode to ADD. User can extend         this class (alu_test) to create there own test-cases for different opcodes.
       Also following the UVM Methodology, every testcase is given a separate sequence. See alu_sequence.sv
+      
+ ### Usage
+  1. For Questasim Users -
+    Copy the repository files in your directory
+    Open Questasim
+    Type in the Transcript -
+    cd <your_directory>
+    vlib my_lib
+    vmap work my_lib
+    vlog alu_top.sv
+    vsim alu_top
