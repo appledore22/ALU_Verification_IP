@@ -26,12 +26,14 @@ The seq item will randomize operands and opcode and send this packet to the driv
       Also following the UVM Methodology, every testcase is given a separate sequence. See alu_sequence.sv
       
  ### Usage
-  1. For Questasim Users -
-    Copy the repository files in your directory
-    Open Questasim
-    Type in the Transcript -
-    cd <your_directory>
-    vlib my_lib
-    vmap work my_lib
-    vlog alu_top.sv
-    vsim alu_top
+  For Questasim Users
+  1.  Copy the repository files in your directory
+  2.  Open Questasim
+  
+  Type in the Transcript
+  1.  cd <your_directory>
+  2.  vlib my_lib
+  3.  vmap work my_lib
+  4.  vlog alu_top.sv
+  5.  vsim alu_top
+  6.  run
