@@ -36,4 +36,9 @@ The seq item will randomize operands and opcode and send this packet to the driv
   3.  vmap work my_lib
   4.  vlog alu_top.sv
   5.  vsim alu_top
-  6.  run
+  6.  run 2000ns
+  
+  ### Results
+  
+  
+  
